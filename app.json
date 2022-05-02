@@ -13,9 +13,7 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
@@ -27,6 +25,17 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "firebase": {
+        "apiKey": "AIzaSyBV19sUci_KPAEFEfTjXwo_7kuU0vyyWKQ",
+        "authDomain": "fastfood-debf7.firebaseapp.com",
+        "databaseURL": "https://fastfood-debf7-default-rtdb.asia-southeast1.firebasedatabase.app/",
+        "projectId": "fastfood-debf7",
+        "storageBucket": "fastfood-debf7.appspot.com",
+        "messagingSenderId": "178946544364",
+        "appId": "1:178946544364:web:145ba72fe90b61dd83cbc9"
+      }
     }
   }
 }
